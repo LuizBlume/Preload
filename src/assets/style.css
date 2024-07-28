@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.box-load .preload {
+  width: 100px;
+  height: 100px;
+  background: url("../assets/images/spin-loading.png");
+  background-position: center;
+  background-size: contain;
+  animation: load 2s infinite linear;
+}
+@keyframes load {
+  to {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */
